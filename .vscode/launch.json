@@ -1,0 +1,830 @@
+internal class Program
+{
+    "configurations": [
+
+        
+    ]
+    private static void Main(string[] args)
+    {
+        {
+            // Use IntelliSense to learn about possible attributes.
+            // Hover to view descriptions of existing attributes.
+            // For more information  visit  https //go.microsoft.com/fwlink/?linkid=830387
+            "version"  "0.2.0"
+urations";           "config
+                Debugger
+                {
+                "name"
+        "Python Debugger  Current File"
+        "type"  "debugpy"
+            "request"  "launch"
+            "program"  "${file}"
+            "console"[{
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+            "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  6
+
+    "startColumn"  29
+
+    "endLineNumber"  6
+
+    "endColumn"  30
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  6
+
+    "startColumn"  29
+
+    "endLineNumber"  6
+
+    "endColumn"  30
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1001"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1001)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "Identifier expected"
+
+    "startLineNumber"  6
+
+    "startColumn"  32
+
+    "endLineNumber"  6
+
+    "endColumn"  32
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1003"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1003)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "Syntax error  ']' expected"
+
+    "startLineNumber"  6
+
+    "startColumn"  32
+
+    "endLineNumber"  6
+
+    "endColumn"  32
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  8
+
+    "startColumn"  23
+
+    "endLineNumber"  8
+
+    "endColumn"  24
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  8
+
+    "startColumn"  23
+
+    "endLineNumber"  8
+
+    "endColumn"  24
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  8
+
+    "startColumn"  32
+
+    "endLineNumber"  8
+
+    "endColumn"  33
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  8
+
+    "startColumn"  32
+
+    "endLineNumber"  8
+
+    "endColumn"  33
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  9
+
+    "startColumn"  26
+
+    "endLineNumber"  9
+
+    "endColumn"  27
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  9
+
+    "startColumn"  26
+
+    "endLineNumber"  9
+
+    "endColumn"  27
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  11
+
+    "startColumn"  14
+
+    "endLineNumber"  11
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  11
+
+    "startColumn"  14
+
+    "endLineNumber"  11
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  12
+
+    "startColumn"  22
+
+    "endLineNumber"  12
+
+    "endColumn"  23
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  12
+
+    "startColumn"  22
+
+    "endLineNumber"  12
+
+    "endColumn"  23
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  16
+
+    "startColumn"  14
+
+    "endLineNumber"  16
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  16
+
+    "startColumn"  14
+
+    "endLineNumber"  16
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  17
+
+    "startColumn"  27
+
+    "endLineNumber"  17
+
+    "endColumn"  28
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  17
+
+    "startColumn"  27
+
+    "endLineNumber"  17
+
+    "endColumn"  28
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  17
+
+    "startColumn"  43
+
+    "endLineNumber"  17
+
+    "endColumn"  43
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  18
+
+    "startColumn"  26
+
+    "endLineNumber"  18
+
+    "endColumn"  26
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  20
+
+    "startColumn"  14
+
+    "endLineNumber"  20
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1513"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1513)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "} expected"
+
+    "startLineNumber"  20
+
+    "startColumn"  14
+
+    "endLineNumber"  20
+
+    "endColumn"  15
+
+    "origin"  "extHost1"
+}
+                {
+                    "resource"  "/c /Users/lisa/OneDrive/Documents/gui/.vscode/c_cpp_properties.json"
+
+    "owner"  "syntax"
+
+    "code"  {
+                        "value"  "CS1002"
+
+        "target"  {
+                            "$mid"  1
+
+            "path"  "/query/roslyn.query"
+
+            "scheme"  "https"
+
+            "authority"  "msdn.microsoft.com"
+
+            "query"  "appId=roslyn&k=k(CS1002)"
+
+        }
+                    }
+                    "severity"  8
+
+    "message"  "  expected"
+
+    "startLineNumber"  20
+
+    "startColumn"  17
+
+    "endLineNumber"  20
+
+    "endColumn"  17
+
+    "origin"  "extHost1"
+}] "integratedTerminal"
+                }
+    ]
+}
+    }
+}
