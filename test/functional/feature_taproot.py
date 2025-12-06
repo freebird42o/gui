@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019-2022 The Bitcoin Core developers
+# Copyright (c) 2019-present The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 # Test Taproot softfork (BIPs 340-342)
@@ -432,7 +432,7 @@ DEFAULT_CONTEXT = {
     # The annex (only when mode=="taproot").
     "annex": None,
     # The codeseparator position (only when mode=="taproot").
-    "codeseppos": -1,
+    "codeseppos": 0xffffffff,
     # Which OP_CODESEPARATOR is the last executed one in the script (in legacy/P2SH/P2WSH).
     "codesepnum": -1,
     # The redeemscript to add to the scriptSig (if P2SH; None implies not P2SH).
@@ -779,6 +779,8 @@ def spenders_taproot_active():
         add_spender(spenders, "sighash/codesep_pk", tap=tap, leaf="codesep_pk", key=secs[1], codeseppos=0, **common, **SINGLE_SIG, **SIGHASH_BITFLIP, **ERR_SCHNORR_SIG)
         add_spender(spenders, "sighash/branched_codesep/left", tap=tap, leaf="branched_codesep", key=secs[0], codeseppos=3, **common, inputs=[getter("sign"), b'\x01'], **SIGHASH_BITFLIP, **ERR_SCHNORR_SIG)
         add_spender(spenders, "sighash/branched_codesep/right", tap=tap, leaf="branched_codesep", key=secs[1], codeseppos=6, **common, inputs=[getter("sign"), b''], **SIGHASH_BITFLIP, **ERR_SCHNORR_SIG)
+        add_spender(spenders, "sighash/codesep_pk_wrongpos1", tap=tap, leaf="codesep_pk", key=secs[1], codeseppos=0, **common, **SINGLE_SIG, failure={"codeseppos": 1}, **ERR_SCHNORR_SIG)
+        add_spender(spenders, "sighash/codesep_pk_wrongpos2", tap=tap, leaf="codesep_pk", key=secs[1], codeseppos=0, **common, **SINGLE_SIG, failure={"codeseppos": 0xfffffffe}, **ERR_SCHNORR_SIG)
 
     # Reusing the scripts above, test that various features affect the sighash.
     add_spender(spenders, "sighash/annex", tap=tap, leaf="pk_codesep", key=secs[1], hashtype=hashtype, standard=False, **SINGLE_SIG, annex=bytes([ANNEX_TAG]), failure={"sighash": override(default_sighash, annex=None)}, **ERR_SCHNORR_SIG)
@@ -1280,7 +1282,7 @@ def spenders_taproot_active():
         script = [pubs[1]]
         inputs = []
         opcount = 1
-        codeseppos = -1
+        codeseppos = 0xffffffff
         for pos, op in enumerate(ops):
             if op == -1:
                 codeseppos = opcount
@@ -1394,7 +1396,7 @@ def dump_json_test(tx, input_utxos, idx, success, failure):
     sha1 = hashlib.sha1(dump.encode("utf-8")).hexdigest()
     dirname = os.environ.get("TEST_DUMP_DIR", ".") + ("/%s" % sha1[0])
     os.makedirs(dirname, exist_ok=True)
-    with open(dirname + ("/%s" % sha1), 'w', encoding="utf8") as f:
+    with open(dirname + ("/%s" % sha1), 'w') as f:
         f.write(dump)
 
 # Data type to keep track of UTXOs, where they were created, and how to spend them.
